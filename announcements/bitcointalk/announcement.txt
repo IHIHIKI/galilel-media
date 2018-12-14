@@ -1,0 +1,256 @@
+[center]
+[img]https://raw.githubusercontent.com/Galilel-Project/galilel-media/master/announcements/bitcointalk/banner.png[/img]
+
+[b][ [url=https://galilel.cloud/][color=#BBA38A]WEBSITE[/color][/url]  |  [url=https://explorer.galilel.cloud/][color=#BBA38A]EXPLORER[/color][/url]  |  [url=https://github.com/Galilel-Project][color=#BBA38A]GITHUB[/color][/url]  |  [url=https://github.com/Galilel-Project/galilel/blob/master/README.md][color=#BBA38A]INFO[/color][/url]  |  [url=https://galilel.cloud/downloads/whitepaper/Galilel_Core_v1.5.pdf][color=#BBA38A]WHITEPAPER[/color][/url]  |  [url=https://github.com/Galilel-Project/galilel/releases/tag/v3.1.0/][color=#BBA38A]WALLETS[/color][/url]  |  [url=https://discord.galilel.cloud/][color=#BBA38A]DISCORD[/color][/url]  |  [url=https://twitter.com/GalilelEN][color=#BBA38A]TWITTER[/color][/url]  |  [url=https://facebook.com/GalilelEN][color=#BBA38A]FACEBOOK[/color][/url] ][/b]
+
+[img]https://raw.githubusercontent.com/Galilel-Project/galilel-media/master/announcements/bitcointalk/about.jpg[/img]
+
+[b][ [color=#BBA38A]Galilel Coin[/color] ][/b][/center]
+
+[left][b][color=#BBA38A]Galilel Coin (GALI and zGALI)[/color][/b] is an open-source public and private Proof-of-Stake digital crypto currency for fast (using SwiftX), private (Zerocoin protocol) and secure micro transactions. Our main goal is to create a decentralized fully secure and anonymous network to run applications, which do not rely on any central body control. By having a distributed system, thousands of users will be responsible for maintaining the application and data so that there is no single point of failure.[/left]
+
+[left]While [b]Zerocoin[/b] solves the traceable reward generation problem, Galilel will implement hybrid offline Proof-of-Stake (ghPoS) for public and private coins which is always on with 10% (public) and 20% (private) of the block reward paid out if offline wallet finds a block. The Term Deposit (gTD) function allow to lock coins for a certain period and generate predictable rewards. Masternode owners get the possibility to vote for reward reduction or complete burning for a specific period to reduce coin generation. The Galilel Money Supply Control (gMSC), effectively Proof-of-Burn v2 burns only rewards, never term deposits and development budget. The period for coin burning will be 1 month with a range between 0% - 100%. Every month is applicable for voting. Galilel Instant On Masternode (gIOMN) implements a shared blockchain to run one-to-many wallet daemons in a client server model. It is comparable to "Instant On" model available in Electrum client.
+
+With early release of Galilel wallet v3.1.0 we delivered the worlds first crypto currency which has proportional Zerocoin Proof-of-Stake (zPoS) rewards depending on the block reward![/left]
+
+[center][img]https://raw.githubusercontent.com/Galilel-Project/galilel-media/master/announcements/bitcointalk/spec.jpg[/img]
+
+[b][ [color=#BBA38A]Coin Specifications[/color] ][/b]
+[table]
+[tr][td][/td][td]_______________________________[/td][td]_________________________________________[/td][td][/td][/tr]
+[tr][td][/td][td][b]Description[/b][/td][td][b]Parameter[/b][/td][td][/td][/tr]
+[tr][td][/td][td]Coin name[/td][td]Galilel[/td][td][/td][/tr]
+[tr][td][/td][td]Coin ticker[/td][td][color=#BBA38A]GALI[/color][/td][td][/td][/tr]
+[tr][td][/td][td]Hash algorithm[/td][td]Quark[/td][td][/td][/tr]
+[tr][td][/td][td]Consensus algorithm[/td][td]PoS + zPoS Hybrid[/td][td][/td][/tr]
+[tr][td][/td][td]Coin type[/td][td]PoW/PoS/zPoS/MN[/td][td][/td][/tr]
+[tr][td][/td][td]Wallet letter[/td][td]U[/td][td][/td][/tr]
+[tr][td][/td][td]Block size[/td][td]2 MB[/td][td][/td][/tr]
+[tr][td][/td][td]Block time[/td][td]60 Seconds (Re-targeting every block)[/td][td][/td][/tr]
+[tr][td][/td][td]RPC port[/td][td]36002[/td][td][/td][/tr]
+[tr][td][/td][td]P2P port[/td][td]36001[/td][td][/td][/tr]
+[tr][td][/td][td]Minimum staking age[/td][td]2 hours[/td][td][/td][/tr]
+[tr][td][/td][td]Maturity[/td][td]120 confirmations[/td][td][/td][/tr]
+[tr][td][/td][td]Send eligibility[/td][td]6 confirmations[/td][td][/td][/tr]
+[tr][td][/td][td]Masternode collateral[/td][td]15,000[/td][td][/td][/tr]
+[tr][td][/td][td]Last PoW block[/td][td]1,500[/td][td][/td][/tr]
+[tr][td][/td][td]Rewards (till block 1,500)[/td][td]MN 60%, PoW 40%[/td][td][/td][/tr]
+[tr][td][/td][td]Rewards (till block 205,000)[/td][td]MN 60%, PoS 40%[/td][td][/td][/tr]
+[tr][td][/td][td]Rewards (from block 205,001)[/td][td]MN 70%, PoS 30%[/td][td][/td][/tr]
+[tr][td][/td][td]Max Coin Supply (January 2020)[/td][td]19,035,999 [color=#BBA38A]GALI[/color][/td][td][/td][/tr]
+[tr][td][/td][td]Max Coin Supply (January 2030)[/td][td]45,315,999 [color=#BBA38A]GALI[/color][/td][td][/td][/tr]
+[tr][td][/td][td]Max Coin Supply (January 2040)[/td][td]71,595,999 [color=#BBA38A]GALI[/color][/td][td][/td][/tr]
+[tr][td][/td][td]Max Coin Supply (January 2050)[/td][td]97,875,999 [color=#BBA38A]GALI[/color][/td][td][/td][/tr]
+[tr][td][/td][td]Dynamic Coin Supply[/td][td]Transaction fees & zGALI minting fees are burnt[/td][td][/td][/tr]
+[tr][td][/td][td]Comminity donation address (BCT)[/td][td][url=https://www.blockchain.com/btc/address/13vZmvxWcpMxZPr2gtf4QBS8Q2En6kB3mo]13vZmvxWcpMxZPr2gtf4QBS8Q2En6kB3mo[/url][/td][td][/td][/tr]
+[tr][td][/td][td]Comminity donation address (GALI)[/td][td][url=https://explorer.galilel.cloud/address/UUr5nDmykhun1HWM7mJAqLVeLzoGtx19dX]UUr5nDmykhun1HWM7mJAqLVeLzoGtx19dX[/url][/td][td][/td][/tr]
+[tr][td][/td][td]Comminity donation address (LTC)[/td][td][url=https://live.blockcypher.com/ltc/address/MAfouCFTBX4hJWTmAvTpFSuwzUZr4gtxDv/]MAfouCFTBX4hJWTmAvTpFSuwzUZr4gtxDv[/url][/td][td][/td][/tr]
+[tr][td][/td][td]Comminity donation address (DOGE)[/td][td][url=https://dogechain.info/address/DFY1iAcbX8uQDaFAFQckSGJfYBb6QzTuMi]DFY1iAcbX8uQDaFAFQckSGJfYBb6QzTuMi[/url][/td][td][/td][/tr]
+[tr][td][/td][td]Dev Budget (from block 250,001)[/td][td]10% in monthly superblock[/td][td][/td][/tr]
+[/table]
+
+[b][ [color=#BBA38A]Zerocoin Specifications[/color] ][/b]
+[table]
+[tr][td][/td][td]_______________________________[/td][td]_________________________________________[/td][td][/td][/tr]
+[tr][td][/td][td][b]Description[/b][/td][td][b]Parameter[/b][/td][td][/td][/tr]
+[tr][td][/td][td]Zerocoin v1 activation[/td][td]block 245,000[/td][td][/td][/tr]
+[tr][td][/td][td]Zerocoin v2 activation[/td][td]block 245,000[/td][td][/td][/tr]
+[tr][td][/td][td]zGALI automint[/td][td]10%[/td][td][/td][/tr]
+[tr][td][/td][td]zGALI rewards (from block 245,001)[/td][td]1 zGALI[/td][td][/td][/tr]
+[tr][td][/td][td]zGALI rewards (from block 340,001)[/td][td]MN 40%, zPoS 60%[/td][td][/td][/tr]
+[tr][td][/td][td]zGALI rewards (from block 430,001)[/td][td]MN 40%, zPoS 60%[/td][td][/td][/tr]
+[tr][td][/td][td]zGALI denominators[/td][td]1, 5, 10, 50, 100, 500, 1000, 5000[/td][td][/td][/tr]
+[tr][td][/td][td]Accumulator modulus[/td][td]RSA-2048[/td][td][/td][/tr]
+[tr][td][/td][td]Maturity[/td][td]240 confirmations[/td][td][/td][/tr]
+[tr][td][/td][td]Send eligibility[/td][td]20 confirmations[/td][td][/td][/tr]
+[tr][td][/td][td]Fees (mint)[/td][td]0.01 GALI per minted zGALI denomination[/td][td][/td][/tr]
+[tr][td][/td][td]Fees (spend)[/td][td]No fee[/td][td][/td][/tr]
+[/table]
+
+[b][ [color=#BBA38A]Proof-of-Work Rewards Breakdown[/color] ][/b]
+[table]
+[tr][td][/td][td]________[/td][td]____________[/td][td]____________[/td][td]_____[/td][td]_____[/td][td]___________[/td][td]_______[/td][td]__________[/td][td][/td][/tr]
+[tr][td][/td][td][b]Stages[/b][/td][td][b]Block Height[/b][/td][td][b]Reward[/b][/td][td][b]MN[/b][/td][td][b]PoW[/b][/td][td][b]Coin Supply[/b][/td][td][b]Period[/b][/td][td][b]Stage End[/b][/td][td][/td][/tr]
+[tr][td][/td][td]Stage 1[/td][td]Block 1[/td][td]220,000 [color=#BBA38A]GALI[/color][/td][td]60%[/td][td]40%[/td][td]220,000[/td][td]0 days[/td][td]2018-05-25[/td][td][/td][/tr]
+[tr][td][/td][td]Stage 2[/td][td]Block 2-1,500[/td][td]1 [color=#BBA38A]GALI[/color][/td][td]60%[/td][td]40%[/td][td]221,499[/td][td]1 day[/td][td]2018-05-26[/td][td][/td][/tr]
+[/table]
+
+[b][ [color=#BBA38A]Proof-of-Stake Rewards Breakdown[/color] ][/b]
+[table]
+[tr][td][/td][td]________[/td][td]________________[/td][td]________[/td][td]_____[/td][td]_____[/td][td]___________[/td][td]_______[/td][td]__________[/td][td][/td][/tr]
+[tr][td][/td][td][b]Stages[/b][/td][td][b]Block Height[/b][/td][td][b]Reward[/b][/td][td][b]MN[/b][/td][td][b]PoS[/b][/td][td][b]Coin Supply[/b][/td][td][b]Period[/b][/td][td][b]Stage End[/b][/td][td][/td][/tr]
+[tr][td][/td][td]Stage 1[/td][td]1,501-12,000[/td][td]100 [color=#BBA38A]GALI[/color][/td][td]60%[/td][td]40%[/td][td]1,271,399[/td][td]7 days[/td][td]2018-06-02[/td][td][/td][/tr]
+[tr][td][/td][td]Stage 2[/td][td]12,001-22,000[/td][td]90 [color=#BBA38A]GALI[/color][/td][td]60%[/td][td]40%[/td][td]2,171,309[/td][td]7 days[/td][td]2018-06-09[/td][td][/td][/tr]
+[tr][td][/td][td]Stage 3[/td][td]22,001-42,000[/td][td]80 [color=#BBA38A]GALI[/color][/td][td]60%[/td][td]40%[/td][td]3,771,229[/td][td]14 days[/td][td]2018-06-23[/td][td][/td][/tr]
+[tr][td][/td][td]Stage 4[/td][td]42,001-100,000[/td][td]70 [color=#BBA38A]GALI[/color][/td][td]60%[/td][td]40%[/td][td]7,831,159[/td][td]40 days[/td][td]2018-08-02[/td][td][/td][/tr]
+[tr][td][/td][td]Stage 5[/td][td]100,001-160,000[/td][td]60 [color=#BBA38A]GALI[/color][/td][td]60%[/td][td]40%[/td][td]11,431,099[/td][td]42 days[/td][td]2018-09-13[/td][td][/td][/tr]
+[tr][td][/td][td]Stage 6[/td][td]160,001-205,000[/td][td]50 [color=#BBA38A]GALI[/color][/td][td]60%[/td][td]40%[/td][td]13,681,049[/td][td]31 days[/td][td]2018-10-14[/td][td][/td][/tr]
+[tr][td][/td][td]Stage 7[/td][td]205,001-250,000[/td][td]25 [color=#BBA38A]GALI[/color][/td][td]70%[/td][td]30%[/td][td]14,806,024[/td][td]31 days[/td][td]2018-11-14[/td][td][/td][/tr]
+[tr][td][/td][td]Stage 8[/td][td]250,001-340,000[/td][td]13.5 [color=#BBA38A]GALI[/color][/td][td]70%[/td][td]30%[/td][td]16,156,009[/td][td]62 days[/td][td]2019-01-15[/td][td][/td][/tr]
+[tr][td][/td][td]Stage 9[/td][td]340,001-430,000[/td][td]10 [color=#BBA38A]GALI[/color][/td][td]70%[/td][td]30%[/td][td]17,055,999[/td][td]62 days[/td][td]2019-03-18[/td][td][/td][/tr]
+[tr][td][/td][td]Stage X[/td][td]430,001-infinity[/td][td]5 [color=#BBA38A]GALI[/color][/td][td]70%[/td][td]30%[/td][td]ongoing[/td][td]ongoing[/td][td]ongoing[/td][td][/td][/tr]
+[/table]
+
+[b][ [color=#BBA38A]Competitive Analysis[/color] ][/b]
+[table]
+[tr][td][/td][td]_____________________________[/td][td]______[/td][td]______[/td][td]_____[/td][td]________[/td][td][/td][/tr]
+[tr][td][/td][td][b]Feature[/b][/td][td][b]Galilel[/b][/td][td][b]Dash[/b][/td][td][b]PIVX[/b][/td][td][b]ROI Coin[/b][/td][td][/td][/tr]
+[tr][td][/td][td]Public Staking[/td][td]Y[/td][td]N[/td][td]Y[/td][td]N[/td][td][/td][/tr]
+[tr][td][/td][td]Private Staking[/td][td]Y[/td][td]N[/td][td]Y[/td][td]N[/td][td][/td][/tr]
+[tr][td][/td][td]Instant Send[/td][td]Y[/td][td]Y[/td][td]Y[/td][td]N[/td][td][/td][/tr]
+[tr][td][/td][td]Private Send[/td][td]Y[/td][td]Y[/td][td]Y[/td][td]N[/td][td][/td][/tr]
+[tr][td][/td][td]Masternodes[/td][td]Y[/td][td]Y[/td][td]Y[/td][td]N[/td][td][/td][/tr]
+[tr][td][/td][td]Decentralized Governance Voting[/td][td]Y[/td][td]Y[/td][td]Y[/td][td]N[/td][td][/td][/tr]
+[tr][td][/td][td]Variable Reward Distribution[sup]1[/sup][/td][td]N[/td][td]N[/td][td]Y[/td][td]N[/td][td][/td][/tr]
+[tr][td][/td][td]Variable Reward Burning[/td][td]Y[/td][td]N[/td][td]N[/td][td]N[/td][td][/td][/tr]
+[tr][td][/td][td]Disconnected Blockchain[/td][td]Y[/td][td]N[/td][td]N[/td][td]N[/td][td][/td][/tr]
+[tr][td][/td][td]Offline Proof-of-Stake[sup]2[/sup][/td][td]Y[/td][td]N[/td][td]N[/td][td]?[/td][td][/td][/tr]
+[tr][td][/td][td]Term Deposits[/td][td]Y[/td][td]N[/td][td]N[/td][td]Y[/td][td][/td][/tr]
+[/table]
+[sup]1 Possible to implement in Galilel using Seesaw algorithm[/sup]
+[sup]2 No Proof-of-Stake consensus for ROI Coin[/sup]
+
+[img]https://raw.githubusercontent.com/Galilel-Project/galilel-media/master/announcements/bitcointalk/links.jpg[/img]
+
+[b][ [color=#BBA38A]Community[/color] ][/b]
+
+Get in touch with the core team of Galilel, join our Discord channel, follow us on Twitter and Facebook or write a post in BitcoinTalk forum.
+
+[url=https://discord.galilel.cloud/][img width=96 height=96 alt=image loading...]https://galilel.cloud/images/community/discord.svg[/img][/url]          [url=https://twitter.com/GalilelEN][img width=96 height=96 alt=image loading...]https://galilel.cloud/images/community/twitter.svg[/img][/url]          [url=https://facebook.com/GalilelEN][img width=96 height=96 alt=image loading...]https://galilel.cloud/images/community/facebook.svg[/img][/url]          [url=https://bitcointalk.galilel.cloud/][img width=96 height=96 alt=image loading...]https://galilel.cloud/images/community/bitcointalk.svg[/img][/url]
+
+[b][ [color=#BBA38A]Marketing[/color] ][/b]
+
+Partners and market capitalisation websites promoting Galilel and providing monitoring or masternode hosting services.
+
+[url=https://masternodes.online/currencies/GALI/][img width=96 height=96 alt=image loading...]https://galilel.cloud/images/marketing/mno.svg[/img][/url]          [url=https://coinlib.io/coin/GALI/Galilel][img width=96 height=96 alt=image loading...]https://galilel.cloud/images/marketing/coinlib.svg[/img][/url]          [url=https://mntop.co.in/][img width=96 height=96 alt=image loading...]https://galilel.cloud/images/marketing/mntop.svg[/img][/url]          [url=https://mnode.club/g/info/GALI][img width=96 height=96 alt=image loading...]https://galilel.cloud/images/marketing/mnode.svg[/img][/url]          [url=https://review.kydcoin.io/galicoin/][img width=96 height=96 alt=image loading...]https://galilel.cloud/images/marketing/kyd.svg[/img][/url]
+
+[url=https://beam.works/user/galilel/][img width=96 height=96 alt=image loading...]https://galilel.cloud/images/marketing/beam.svg[/img][/url]          [url=https://satoshisolutions.online/][img width=96 height=96 alt=image loading...]https://galilel.cloud/images/marketing/satoshi.svg[/img][/url]          [url=https://gali.chopcoin.io/][img width=96 height=96 alt=image loading...]https://galilel.cloud/images/marketing/chopcoin.svg[/img][/url]          [url=https://nodecheck.io/currency/GALI][img width=96 height=96 alt=image loading...]https://galilel.cloud/images/marketing/nodecheck.svg[/img][/url]          [url=https://coincodex.com/crypto/galilel/][img width=96 height=96 alt=image loading...]https://galilel.cloud/images/marketing/coincodex.svg[/img][/url]
+
+[url=https://coingecko.com/en/coins/galilel][img width=96 height=96 alt=image loading...]https://galilel.cloud/images/marketing/coingecko.svg[/img][/url]          [url=https://worldcoinindex.com/coin/galilel][img width=96 height=96 alt=image loading...]https://galilel.cloud/images/marketing/worldcoinindex.svg[/img][/url]          [url=https://coinpaprika.com/coin/gali-galilel/][img width=96 height=96 alt=image loading...]https://galilel.cloud/images/marketing/coinpaprika.svg[/img][/url]
+
+[url=https://dextro.io/][img width=96 height=96 alt=image loading...]https://galilel.cloud/images/marketing/dextro.svg[/img][/url]
+
+[img]https://raw.githubusercontent.com/Galilel-Project/galilel-media/master/announcements/bitcointalk/roadmap.png[/img]
+
+[img]https://raw.githubusercontent.com/Galilel-Project/galilel-media/master/announcements/bitcointalk/gali_v2_roadmap.jpg[/img]
+
+[img]https://raw.githubusercontent.com/Galilel-Project/galilel-media/master/announcements/bitcointalk/team.png[/img]
+
+[table]
+[tr][td][/td][td][img]https://galilel.cloud/images/team/maik.png[/img][/td][td][img]https://galilel.cloud/images/team/miles.png[/img][/td][td][/td][/tr]
+[tr][td][/td][td][center][url=https://www.linkedin.com/in/mbroemme/][img width=32 height=32]https://galilel.cloud/images/team/linkedin.svg[/img][/url][url=https://www.xing.com/profile/Maik_Broemme/cv][img width=32 height=32]https://galilel.cloud/images/team/xing.svg[/img][/url][url=https://www.facebook.com/mbroemme][img width=32 height=32]https://galilel.cloud/images/team/facebook.svg[/img][/url][url=https://github.com/mbroemme][img width=32 height=32]https://galilel.cloud/images/team/github.svg[/img][/url][url=https://zuppy.pm/][img width=32 height=32]https://galilel.cloud/images/team/home.svg[/img][/url][email=mbroemme@libmpq.org][img width=32 height=32]https://galilel.cloud/images/team/email.svg[/img][/email][/center][/td][td][center][url=https://twitter.com/bossteck][img width=32 height=32]https://galilel.cloud/images/team/twitter.svg[/img][/url][url=https://www.facebook.com/BBR.MILES.CLAY][img width=32 height=32]https://galilel.cloud/images/team/facebook.svg[/img][/url][url=https://github.com/Bossteck][img width=32 height=32]https://galilel.cloud/images/team/github.svg[/img][/url][email=botx@gmx.com][img width=32 height=32]https://galilel.cloud/images/team/email.svg[/img][/email][/center][/td][td][/td][/tr]
+[tr][td][/td][td][center]Maik Broemme[/center][/td][td][center]Miles Clay[/center][/td][td][/td][/tr]
+[tr][td][/td][td][center]Babyface#7772[/center][/td][td][center]Bossteck#6262[/center][/td][td][/td][/tr]
+[tr][td][/td][td][center]Founder & Developer[/center][/td][td][center]Co-Founder & Designer[/center][/td][td][/td][/tr]
+[/table]
+
+
+[img]https://raw.githubusercontent.com/Galilel-Project/galilel-media/master/announcements/bitcointalk/wallets.jpg[/img]
+
+[b][ [color=#BBA38A]Binaries[/color] ][/b]
+
+[table]
+[tr]
+[td][b]Windows[/b][/td]
+[td][b]Linux[/b][/td]
+[td][b]macOS[/b][/td]
+[/tr]
+[tr]
+[td]_________________________________[/td]
+[td]_________________________________[/td]
+[td]_________________________________[/td]
+[/tr]
+[tr]
+[td][url=https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/galilel-v3.1.0-win32.zip]galilel-v3.1.0-win32.zip[/url][/td]
+[td][url=https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/galilel-v3.1.0-lin32.tar.gz]galilel-v3.1.0-lin32.tar.gz[/url][/td]
+[td][url=https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/galilel-v3.1.0-osx64.tar.gz]galilel-v3.1.0-osx64.tar.gz[/url][/td]
+[/tr]
+[tr]
+[td][url=https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/galilel-v3.1.0-win64.zip]galilel-v3.1.0-win64.zip[/url][/td]
+[td][url=https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/galilel-v3.1.0-lin64.tar.gz]galilel-v3.1.0-lin64.tar.gz[/url][/td]
+[td][url=https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/galilel-v3.1.0-osx64-unsigned.dmg]galilel-v3.1.0-osx64-unsigned.dmg[/url][/td]
+[/tr]
+[tr]
+[td][url=https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/galilel-v3.1.0-win32-setup-unsigned.exe]galilel-v3.1.0-win32-setup-unsigned.exe[/url][/td]
+[td][url=https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/galilel-v3.1.0-armhf.tar.gz]galilel-v3.1.0-armhf.tar.gz[/url][/td]
+[td][/td]
+[/tr]
+[tr]
+[td][url=https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/galilel-v3.1.0-win64-setup-unsigned.exe]galilel-v3.1.0-win64-setup-unsigned.exe[/url][/td]
+[td][url=https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/galilel-v3.1.0-aarch64.tar.gz]galilel-v3.1.0-aarch64.tar.gz[/url][/td]
+[td][/td]
+[/tr]
+[/table]
+
+[b][ [color=#BBA38A]Repositories[/color] ][/b]
+
+Galilel repositories include wallet, backend and daemon source as well as media files.
+
+[url=https://github.com/Galilel-Project][img width=96 height=96 alt=image loading...]https://galilel.cloud/images/wallet/github.svg[/img][/url]
+
+[b][ [color=#BBA38A]List of official active seeds[/color] ][/b]
+
+[code]addnode=seed1.galilel.cloud
+addnode=seed2.galilel.cloud
+addnode=seed3.galilel.cloud
+addnode=seed4.galilel.cloud
+addnode=seed5.galilel.cloud
+addnode=seed6.galilel.cloud
+addnode=seed7.galilel.cloud
+addnode=seed8.galilel.cloud[/code]
+
+[img]https://raw.githubusercontent.com/Galilel-Project/galilel-media/master/announcements/bitcointalk/exchanges.png[/img]
+
+[b][ [color=#BBA38A]Exchanges[/color] ][/b]
+
+Galilel Coin can be traded on the following exchanges:
+
+[url=https://graviex.net/markets/galibtc][img width=96 height=96 alt=image loading...]https://galilel.cloud/images/exchange/graviex.svg[/img][/url]           [url=https://raisex.io/trade/GALI_BTC][img width=96 height=96 alt=image loading...]https://galilel.cloud/images/exchange/raisex.svg[/img][/url]          [url=https://aiodex.com/exchange/GALI_BTC][img width=96 height=96 alt=image loading...]https://galilel.cloud/images/exchange/aiodex.svg[/img][/url]
+
+[img]https://raw.githubusercontent.com/Galilel-Project/galilel-media/master/announcements/bitcointalk/translations.jpg[/img]
+
+[b][ [color=#BBA38A]Help us to spread the word about Galilel Project worldwide![/color] ][/b]
+
+For translating the ANN into one of the languages below you will be rewarded with [b]1000 [color=#BBA38A]GALI[/color][/b].
+We [b]do not accept[/b] the Google translate translations!
+
+Arabic
+Chinese
+Croatian
+Czech
+Filipino
+French
+German
+Hungarian
+Indian
+Indonesian
+Italian
+Japanese
+Korean
+Polish
+Portuguese
+Romanian
+Russian
+Slovak
+Spanish
+Turkish
+Ukraine
+Vietnamese
+
+This bounty will be handled by our Marketing Managers and Team Leaders in the 51th week.
+
+[img]https://raw.githubusercontent.com/Galilel-Project/galilel-media/master/announcements/bitcointalk/airdrops.jpg[/img]
+
+[b][ [color=#BBA38A]Will be available in the 51th week.[/color] ][/b]
+
+[color=#F2E7DB]__________________________________________________________[/color]
+[color=#BBA38A]__________________________________________________________[/color]
+__________________________________________________________
+
+[b][ [url=https://galilel.cloud/][color=#BBA38A]WEBSITE[/color][/url]  |  [url=https://explorer.galilel.cloud/][color=#BBA38A]EXPLORER[/color][/url]  |  [url=https://github.com/Galilel-Project][color=#BBA38A]GITHUB[/color][/url]  |  [url=https://github.com/Galilel-Project/galilel/blob/master/README.md][color=#BBA38A]INFO[/color][/url]  |  [url=https://galilel.cloud/downloads/whitepaper/Galilel_Core_v1.5.pdf][color=#BBA38A]WHITEPAPER[/color][/url]  |  [url=https://github.com/Galilel-Project/galilel/releases/tag/v3.1.0/][color=#BBA38A]WALLETS[/color][/url]  |  [url=https://discord.galilel.cloud/][color=#BBA38A]DISCORD[/color][/url]  |  [url=https://twitter.com/GalilelEN][color=#BBA38A]TWITTER[/color][/url]  |  [url=https://facebook.com/GalilelEN][color=#BBA38A]FACEBOOK[/color][/url] ][/b]
+
+______________________________
+[color=#BBA38A]______________________________[/color]
+[color=#F2E7DB]______________________________[/color]
+
+Your [url=https://galilel.cloud][color=#BBA38A][b]galilel.cloud[/b][/color][/url] Team[/center]
